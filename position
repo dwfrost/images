@@ -1,1 +1,120 @@
-<mxfile host="app.diagrams.net" modified="2022-12-18T13:12:46.690Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="QG7mm3SCdCfxZa7A8U_r" type="github"><diagram id="-WyriFckC66ug07wMTvr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-18T13:39:42.244Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="3icOEsEHE7xCIv_oZOE2" type="github">
+  <diagram id="vk4JvVgPtHz-TZZRLLnI" name="第 1 页">
+    <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DBvZy6OBYYsCA6WXi3HS-2" target="DBvZy6OBYYsCA6WXi3HS-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-2" value="价格波动&lt;br&gt;（无限循环）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DBvZy6OBYYsCA6WXi3HS-7" target="DBvZy6OBYYsCA6WXi3HS-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="275" />
+              <mxPoint x="500" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-31" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DBvZy6OBYYsCA6WXi3HS-29">
+          <mxGeometry x="-0.8295" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="DBvZy6OBYYsCA6WXi3HS-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="340" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-43" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DBvZy6OBYYsCA6WXi3HS-34">
+          <mxGeometry x="-0.125" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-7" value="是否达到强平价" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="210" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-11" value="遍历持仓列表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="195" y="30" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="DBvZy6OBYYsCA6WXi3HS-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-39" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DBvZy6OBYYsCA6WXi3HS-36">
+          <mxGeometry x="-0.7267" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="DBvZy6OBYYsCA6WXi3HS-12" target="DBvZy6OBYYsCA6WXi3HS-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-44" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DBvZy6OBYYsCA6WXi3HS-41">
+          <mxGeometry x="-0.12" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-12" value="是否满足止盈止损条件" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="420" width="140" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="DBvZy6OBYYsCA6WXi3HS-35" target="DBvZy6OBYYsCA6WXi3HS-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-35" value="平台进行平仓" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-37" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="590" y="180" width="120" height="395" as="geometry" />
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-19" value="读取mysql账户信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="DBvZy6OBYYsCA6WXi3HS-37">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-21" value="账户存在" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="DBvZy6OBYYsCA6WXi3HS-37">
+          <mxGeometry x="20" y="95" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="DBvZy6OBYYsCA6WXi3HS-37" source="DBvZy6OBYYsCA6WXi3HS-19" target="DBvZy6OBYYsCA6WXi3HS-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-23" value="equity&amp;gt;0" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="DBvZy6OBYYsCA6WXi3HS-37">
+          <mxGeometry x="20" y="205" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="DBvZy6OBYYsCA6WXi3HS-37" source="DBvZy6OBYYsCA6WXi3HS-21" target="DBvZy6OBYYsCA6WXi3HS-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-27" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DBvZy6OBYYsCA6WXi3HS-20">
+          <mxGeometry x="-0.3" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-24" value="account更新" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="DBvZy6OBYYsCA6WXi3HS-37">
+          <mxGeometry y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-22" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="DBvZy6OBYYsCA6WXi3HS-37" source="DBvZy6OBYYsCA6WXi3HS-23" target="DBvZy6OBYYsCA6WXi3HS-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DBvZy6OBYYsCA6WXi3HS-40" target="DBvZy6OBYYsCA6WXi3HS-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="720" />
+              <mxPoint x="100" y="720" />
+              <mxPoint x="100" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-40" value="计算并更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-42" value="pl&lt;br&gt;margin_frozen&lt;br&gt;margin_available&lt;br&gt;equity" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="590" width="50" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
