@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-18T10:17:31.879Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Tf_flsdC1H1-U_Pk0s4A" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-18T10:27:36.450Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ftu9frUcUiDJnpnOCbYP" version="20.7.4" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -49,16 +49,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wc7gYVsaRYlRubkSwobz-66" value="用户订单" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="240" width="120" height="80" as="geometry" />
+          <mxGeometry x="470" y="250" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wc7gYVsaRYlRubkSwobz-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wc7gYVsaRYlRubkSwobz-67" target="wc7gYVsaRYlRubkSwobz-76">
+        <mxCell id="wc7gYVsaRYlRubkSwobz-81" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wc7gYVsaRYlRubkSwobz-67" target="wc7gYVsaRYlRubkSwobz-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wc7gYVsaRYlRubkSwobz-86" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wc7gYVsaRYlRubkSwobz-67" target="wc7gYVsaRYlRubkSwobz-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wc7gYVsaRYlRubkSwobz-67" value="trade单" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="240" width="120" height="80" as="geometry" />
+          <mxGeometry x="680" y="250" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wc7gYVsaRYlRubkSwobz-68" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="320" width="140" height="120" as="geometry" />
+          <mxGeometry x="470" y="330" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wc7gYVsaRYlRubkSwobz-69" value="市价" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wc7gYVsaRYlRubkSwobz-68">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -70,13 +73,19 @@
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wc7gYVsaRYlRubkSwobz-76" value="position单" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="240" width="120" height="80" as="geometry" />
+          <mxGeometry x="1060" y="110" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wc7gYVsaRYlRubkSwobz-80" value="一个产品对应一个position单&lt;br&gt;一个position单是所有trade的汇总&lt;br&gt;什么时候position为0，有2种情况：&lt;br&gt;1.强平&lt;br&gt;2.触发止盈止损价格" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=south;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="330" width="200" height="80" as="geometry" />
+        <mxCell id="wc7gYVsaRYlRubkSwobz-80" value="一个产品对应一个position单&lt;br&gt;一个position单是所有trade的汇总&lt;br&gt;有3种情况造成position直接为0：&lt;br&gt;1.强平&lt;br&gt;2.触发止盈止损价格&lt;br&gt;3.用户下与当前仓位相反方向的单，并成交" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="190" width="240" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="wc7gYVsaRYlRubkSwobz-82" value="&lt;span style=&quot;&quot;&gt;设定为1个订单对应1个trade单&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;实际情况是1对1或者1对多&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;分为加仓和减仓（平仓）&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=south;" vertex="1" parent="1">
-          <mxGeometry x="790" y="330" width="175" height="75" as="geometry" />
+        <mxCell id="wc7gYVsaRYlRubkSwobz-82" value="&lt;span style=&quot;&quot;&gt;设定为1个订单对应1个trade单&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;实际情况是1对1或者1对多&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;分为加仓和减仓（平仓）&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;trade单相当于position单的轨迹&lt;br&gt;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="660" y="340" width="175" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="wc7gYVsaRYlRubkSwobz-83" value="已平仓单" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="335" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wc7gYVsaRYlRubkSwobz-85" value="trade单中，&lt;br&gt;造成仓位绝对值减小的单，&lt;br&gt;就是已平仓单" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1027.5" y="415" width="185" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
