@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-18T13:39:42.244Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="3icOEsEHE7xCIv_oZOE2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-18T14:15:35.021Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="dOBAIpYkSeMM96LsNXvx" type="github">
   <diagram id="vk4JvVgPtHz-TZZRLLnI" name="第 1 页">
-    <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1122" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -111,7 +111,7 @@
         <mxCell id="DBvZy6OBYYsCA6WXi3HS-40" value="计算并更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DBvZy6OBYYsCA6WXi3HS-42" value="pl&lt;br&gt;margin_frozen&lt;br&gt;margin_available&lt;br&gt;equity" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="DBvZy6OBYYsCA6WXi3HS-42" value="unpl&lt;br&gt;margin_frozen&lt;br&gt;margin_available&lt;br&gt;equity&lt;br&gt;today_pl" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="590" width="50" height="100" as="geometry" />
         </mxCell>
       </root>
